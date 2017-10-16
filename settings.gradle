@@ -1,0 +1,7 @@
+rootProject.name = 'root'
+include 'service-eureka'
+include 'service-config'
+include 'service-zuul'
+include 'custom1'
+include 'custom2'
+

@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: custom1
+server:
+  port: 8001
+management:
+  security:
+    enabled: false

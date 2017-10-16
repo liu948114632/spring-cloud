@@ -1,0 +1,23 @@
+server:
+  port: 10000
+zuul:
+  routes:
+    cunstom1:
+      path: custom1/**
+      serviceId: custom1
+    cunstom2:
+      path: custom2/**
+      serviceId: custom2
+spring:
+  application:
+    name: service-zuul
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000  #超时设置
+#robbon:
+#   ConnectTimeout: 6000
+#   ReadTimeout: 6000

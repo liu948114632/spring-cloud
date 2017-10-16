@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/custom1/custom1.iml" filepath="$PROJECT_DIR$/.idea/modules/custom1/custom1.iml" group="custom1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/custom1/custom1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/custom1/custom1_main.iml" group="custom1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/custom1/custom1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/custom1/custom1_test.iml" group="custom1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/custom2/custom2.iml" filepath="$PROJECT_DIR$/.idea/modules/custom2/custom2.iml" group="custom2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/custom2/custom2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/custom2/custom2_main.iml" group="custom2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/custom2/custom2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/custom2/custom2_test.iml" group="custom2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/root.iml" filepath="$PROJECT_DIR$/.idea/modules/root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/root_main.iml" filepath="$PROJECT_DIR$/.idea/modules/root_main.iml" group="root" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/root_test.iml" filepath="$PROJECT_DIR$/.idea/modules/root_test.iml" group="root" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-config/service-config.iml" filepath="$PROJECT_DIR$/.idea/modules/service-config/service-config.iml" group="service-config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-config/service-config_main.iml" filepath="$PROJECT_DIR$/.idea/modules/service-config/service-config_main.iml" group="service-config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-config/service-config_test.iml" filepath="$PROJECT_DIR$/.idea/modules/service-config/service-config_test.iml" group="service-config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-eureka/service-eureka.iml" filepath="$PROJECT_DIR$/.idea/modules/service-eureka/service-eureka.iml" group="service-eureka" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-eureka/service-eureka_main.iml" filepath="$PROJECT_DIR$/.idea/modules/service-eureka/service-eureka_main.iml" group="service-eureka" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-eureka/service-eureka_test.iml" filepath="$PROJECT_DIR$/.idea/modules/service-eureka/service-eureka_test.iml" group="service-eureka" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/.idea/modules/service-zuul/service-zuul.iml" group="service-zuul" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-zuul/service-zuul_main.iml" filepath="$PROJECT_DIR$/.idea/modules/service-zuul/service-zuul_main.iml" group="service-zuul" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-zuul/service-zuul_test.iml" filepath="$PROJECT_DIR$/.idea/modules/service-zuul/service-zuul_test.iml" group="service-zuul" />
+    </modules>
+  </component>
+</project>
