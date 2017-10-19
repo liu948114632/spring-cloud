@@ -2,7 +2,7 @@ spring:
   application:
     name: custom1
 server:
-  port: 8001
+  port: 8003
 management:
   security:
     enabled: false

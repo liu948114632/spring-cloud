@@ -9,12 +9,12 @@ zuul:
       path: custom2/**
       serviceId: custom2
 ribbon:
-  ReadTimeout: 1000
-  ConnectTimeout: 500
-  MaxAutoRetries: 1 #当前实例的超时重试次数
-  MaxAutoRetriesNextServer: 2 #其他实例超时重试次数。这是统一配置，针对所有的微服务。如果是单独的。在各自的微服务中配置。
-  eureka:
-    enabled: false
+  ReadTimeout: 6000
+  ConnectTimeout: 6000
+#  当前服务重试次数
+  MaxAutoRetries: 1
+# 其他服务重试次数
+  MaxAutoRetriesNextServer: 2
 spring:
   application:
     name: service-zuul
