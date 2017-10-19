@@ -6,3 +6,10 @@ server:
 #feign:    #git中有
 #  hystrix:
 #    enabled: true
+custom1:
+  ribbon:
+     ReadTimeout: 1000
+     ConnectTimeout: 500
+     MaxAutoRetries: 1 #当前实例的超时重试次数
+     MaxAutoRetriesNextServer: 2 #其他实例超时重试次数。
+     OkToRetryOnAllOperations: true #对所有请求进行重试
