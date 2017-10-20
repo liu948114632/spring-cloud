@@ -17,7 +17,7 @@ public class IndexController {
     @Autowired
     private FeignService feignService;
 //方法上面不需要HystrixCommand这个注解。feign默认使用这个
-//    @HystrixCommand
+    @HystrixCommand
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
     public String hello(){
         return feignService.hello("custom2传过来的值");

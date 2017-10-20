@@ -13,3 +13,8 @@ custom1:
      MaxAutoRetries: 1 #当前实例的超时重试次数
      MaxAutoRetriesNextServer: 2 #其他实例超时重试次数。
      OkToRetryOnAllOperations: true #对所有请求进行重试
+hystrix:
+   threadpool:
+      custom1:
+        coreSize: 20
+        maximumSize: 20
